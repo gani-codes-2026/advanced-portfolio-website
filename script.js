@@ -85,3 +85,8 @@ gsap.from(".project-card", {
   stagger: 0.3,
   duration: 1
 });
+gsap.from(".profile-img",{
+    scale:0,
+    opacity:0,
+    duration:1.5
+});
